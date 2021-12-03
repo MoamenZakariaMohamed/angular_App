@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    position: absolute;
+    height: 200px;
+    background-color:#535756;
+    display: flex;
+
+}
+.footer .Privacy-item{
+    width: 40%;
+}
+.footer .Privacy-item ul{
+    list-style: none;
+    padding: 40px;
+}
+
+.footer .form{
+    width: 40%;
+}
+.footer .form h1{
+    font-size: large;
+    padding-top: 30px;
+}
+.footer .form input{
+    padding: 5px 10px;
+}
+.footer .form button{
+    background-color:#4dbdeb;
+    padding: 7px;
+    color: #eee;
+    border: 1px #4dbdeb;
+
+}
+.footer .follow-us{
+    width: 45%;
+}
+.footer .follow-us h1{
+    font-weight: large;
+    padding-top: 20px;
+}
+.footer .follow-us ul{
+list-style: none;
+line-height: 1.5;
+}

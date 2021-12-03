@@ -1,0 +1,30 @@
+.header{
+    height: 70px;
+    width: 100%;
+    margin-top: 0px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.header img{
+    width: 5%;
+    margin: 8px 0px 2px 14px ;
+}
+.header ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.header ul li{
+    display:inline-block;
+    margin: 20px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color:#4DBDEB;
+    font-weight: bold;
+    text-transform:capitalize;
+}
+.header ul li a:hover{
+    color: #ddd;
+
+}

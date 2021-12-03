@@ -1,0 +1,114 @@
+.slider{
+    margin: 8px 0px 0px 0px;
+   height: 600px;
+   width: 100%;
+   background-image: url('../../assets/ff.jfif');
+   background-size: cover;
+   }
+   .slider button{
+       position: absolute;
+       left: 40%;
+       top: 80%;
+       background-color: #4dbdeb;
+       border: 2px;
+       padding: 12px;
+       text-transform: uppercase;
+       font: 1em sans-serif;
+       color:#eee;
+   }
+   .slider button:hover{
+       color: #4dbdeb;
+       background-color: #fff;
+   }
+   .info{
+       width: 100%;
+       text-align: center;
+   }.info h1{
+       text-transform: capitalize;
+       font: bold sans-serif;
+   }
+   .info h3{
+       font-size: 18px;
+       color: #707070;
+       line-height: 28px;
+       line-height: 1.5em;
+   }
+   .book-carer{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 300px;
+   }
+    .book-carer .coaching{
+       width: 50%;
+       height: 250px;
+       /* background-color: darkmagenta; */
+   }
+ .book-carer .coaching img{
+    width: 25%;
+}
+.book-carer .counseling{
+    width: 25%;
+    height: 270px;
+    /* background-color: darkgrey; */
+    align-items: center;
+ } 
+ 
+ .book-carer .counseling img{
+    width: 80%;
+}
+.book-carer .coaching button,.book-carer .counseling button{
+    display: block;
+    padding: 8px;
+    background-color:#4dbdeb;
+    text-transform: uppercase;
+       font: 1em sans-serif;
+       color:#eee;
+       border: 1px solid;
+       margin-top: 8px;
+       box-shadow: 1px 1px 7px #4dbdeb;
+       cursor: pointer;
+}
+.book-carer .coaching button:hover,.book-carer .counseling button:hover{
+
+    color: #4dbdeb;
+       background-color: #fff;
+}
+.download{
+    height: 600px ;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.download .text{
+    width: 50%;
+}
+.download .text h1 , p {
+    /* text-align: center; */
+    padding-left: 50px;
+
+}
+.download .text button{
+margin-left: 50px;
+    padding:10px;
+    background-color:#4dbdeb;
+    text-transform: uppercase;
+       font: 1em sans-serif;
+       color:#eee;
+       border: 1px solid;
+       margin-top: 8px;
+       box-shadow: 1px 1px 7px #4dbdeb;
+       border-radius: 6px;
+       cursor: pointer;
+
+}
+.download .text button:hover{
+    color: #4dbdeb;
+    background-color: #fff;
+}
+.download .image{
+    width: 50%;
+}

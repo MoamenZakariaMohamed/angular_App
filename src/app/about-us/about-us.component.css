@@ -1,0 +1,46 @@
+
+.about-slider{
+    height: 550px;
+    background-image: url('../../assets/vision.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about-slider h1,.about-slider h3{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    text-transform: capitalize;
+    color: #eee;
+}
+.about-slider h1{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.vlue{
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    padding-top: 20px;
+}
+.vlue button{
+    display: block;
+    padding:10px;
+    background-color:#4dbdeb;
+    text-transform: uppercase;
+       font: 1em sans-serif;
+       color:#eee;
+       border: 1px solid;
+       margin-top: 20px;
+       box-shadow: 1px 1px 7px #4dbdeb;
+       border-radius: 6px;
+       cursor: pointer;
+}
+.body-img{
+    height: 700px;
+    background-image: url('../../assets/ourStory.jpeg');
+    background-size: cover;
+}
+.body-img .our h1 ,h3{
+ text-align: center;
+ color: #EEE;
+}
